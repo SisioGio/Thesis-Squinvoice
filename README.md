@@ -20,6 +20,12 @@ cd client
 npm install
 ```
 
+Mysql is required and it must be configured in the file
+
+```
+server/config/db.config.js
+```
+
 ## Usage
 
 ### Server
