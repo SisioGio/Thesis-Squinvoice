@@ -55,6 +55,7 @@ const { DB } = require("./config/db.config");
 db.company.hasOne(db.address, { onDelete: "RESTRICT" });
 db.address.belongsTo(db.company, {
   onDelete: "RESTRICT",
+  as: "companyAddress",
 });
 
 // Invoice - Address
