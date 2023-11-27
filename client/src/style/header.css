@@ -1,0 +1,26 @@
+.header {
+  background-color: rgba(15, 113, 167, 0.891);
+  display: flex;
+  justify-content: space-around;
+}
+
+.header h3 {
+  padding: 1rem 2rem;
+}
+.header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header ul li a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: block;
+}
+a:-webkit-any-link:active {
+  color: none;
+}
+
+.flex-grow-0 {
+  flex-grow: 0;
+}

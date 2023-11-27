@@ -1,0 +1,20 @@
+.account {
+  background-color: var(--blue);
+  padding-top: 10rem;
+}
+.account .btn {
+  background-color: white;
+  color: var(--blue);
+}
+
+.account .form {
+  color: white;
+}
+
+.account input {
+  padding: 1rem;
+}
+
+.companies {
+  color: white;
+}

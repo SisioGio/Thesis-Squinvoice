@@ -1,0 +1,134 @@
+[class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.gap-2 {
+  gap: 1rem;
+}
+.flex-gap {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.lineItems {
+  position: fixed;
+  width: 500px;
+  height: 500px;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lineItems {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 100%;
+}
+.purchase-invoices,
+.purchase-invoices input {
+  font-size: 0.75rem;
+}
+.purchase-invoices thead {
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+}
+
+nav {
+  background: transparent;
+  color: var(--white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-links {
+  top: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff38;
+  border-radius: 24px;
+  margin-top: 1rem;
+}
+
+.navbar-links li {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .navbar-links {
+    position: relative;
+    top: unset;
+    left: unset;
+    background-color: transparent;
+    border-radius: unset;
+    margin-top: unset;
+  }
+
+  .navbar-links li {
+    width: unset;
+    text-align: unset;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
+
+.custom-shape-divider-top-1696624315 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1696624315 svg {
+  position: relative;
+  display: block;
+  width: calc(121% + 1.3px);
+  height: 83px;
+}
+
+.custom-shape-divider-top-1696624315 .shape-fill {
+  fill: #ffffff;
+}
+.custom-shape-divider-bottom-1696637079 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1696637079 svg {
+  position: relative;
+  display: block;
+  width: calc(121% + 1.3px);
+  height: 83px;
+}
+
+.custom-shape-divider-bottom-1696637079 .shape-fill {
+  fill: #ffffff;
+}

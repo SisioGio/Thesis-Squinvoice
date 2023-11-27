@@ -1,0 +1,65 @@
+const getRequestExample = {
+  type: "CREDIT NOTE",
+  documentNo: "CT_12344",
+  dueDate: "2023-04-23",
+  netAmount: "1400.00",
+  taxAmount: "240.00",
+  freightCharge: "132.00",
+  priceRounding: "10.00",
+  totalAmount: "1230.00",
+  purchaseOrder: "42432524",
+  deliveryNote: "4243242DFFSD",
+  invoiceLines: [
+    {
+      articleCode: "ARTICLE 3",
+      description: "One product invoiced via Squinvoice",
+      purchaseOrder: "4512323423",
+      deliveryNote: "DV_12231234",
+      unitOfMeasure: "KG",
+      quantity: "2.00",
+      unitPrice: "50.00",
+      taxPercentage: "12.00",
+      taxAmount: "20.00",
+      totalAmount: "120.00",
+    },
+    {
+      articleCode: "ARTICLE 2",
+      description: "One product invoiced via Squinvoice 2",
+      purchaseOrder: "33424242342",
+      deliveryNote: "DV_43234432",
+      unitOfMeasure: "KG",
+      quantity: "1.00",
+      unitPrice: "200.00",
+      taxPercentage: "5.00",
+      taxAmount: "30.00",
+      totalAmount: "230.00",
+    },
+  ],
+  taxLines: [
+    {
+      taxDescription: "TAX CODE 1",
+      taxPercentage: "12.00",
+      netAmount: "100.00",
+      taxAmount: "12.00",
+    },
+    {
+      taxDescription: "TAX CODE 2",
+      taxPercentage: "0.00",
+      netAmount: "200.00",
+      taxAmount: "0.00",
+    },
+  ],
+  vendor: {
+    name: "Oerlikon",
+    identificator: "IT122323423",
+  },
+  ShippingAddress: {
+    country: "Italy",
+    city: "Viterbo",
+    street: "Sant Agostino",
+    streetNo: "42",
+    postcode: "01-100",
+  },
+};
+
+export default getRequestExample;
