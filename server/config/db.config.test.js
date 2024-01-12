@@ -1,10 +1,13 @@
+const dotenv = require("dotenv");
+dotenv.config();
+
 module.exports = {
-  HOST: "127.0.0.1",
-  port: "3306",
-  USER: "root",
-  PASSWORD: "Pesca123!",
-  DB: "Squinvoice_TEST",
-  dialect: "mysql",
+  HOST: process.env.DB_HOST,
+  USER: process.env.DB_USER,
+  PORT: process.env.DB_PORT,
+  PASSWORD: process.env.DB_PASSWORD,
+  DB:"Squinvoice_TEST",
+  dialect: "mariadb",
   pool: {
     max: 5,
     min: 0,
