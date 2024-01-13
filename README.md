@@ -28,6 +28,15 @@ server/config/db.config.js
 
 ## Usage
 
+The system is using a database service to store the data, that's why it's required to set-up the required tokens in the **.env** file
+
+```javascript
+DB_PORT = "DB_PORT";
+DB_USER = "DB:USER";
+DB_PASSWORD = "DB_PASSWORD";
+DB_HOST = "DB_HOST";
+```
+
 ### Server
 
 ```bash

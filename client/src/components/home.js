@@ -134,39 +134,27 @@ function Home() {
         </div>
         <div className="d-flex justify-content-center align-content-center row gap-2 col-12 col-sm-10 col-md-8 col-lg-10 col-xl-10">
           <div className="col-10 col-md-5 col-lg-3 benefit-card ">
-            <h3>Benefit 1</h3>
+            <h3>Seamless Integration with Existing Software</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            Simplify your invoice processing without disrupting your current workflows. Our microservice offers a seamless API integration, enhancing electronic data without requiring any major changes to your existing software. Enjoy the benefits of streamlined invoicing without the headache of extensive system modifications.
             </p>
           </div>
           <div className="  col-10  col-md-5 col-lg-3 benefit-card">
-            <h3>Benefit 1</h3>
+            <h3>Community-Driven Advancements</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            Join a thriving community where more users equate to more benefits for everyone. Without the need for individual registrations, our microservice fosters a collaborative environment. As the community grows, so does the collective intelligence, ensuring continuous improvements and shared success.
             </p>
           </div>
           <div className=" col-10 col-md-5 col-lg-3 benefit-card">
-            <h3>Benefit 1</h3>
+            <h3>Effortless Electronic Data Enhancement</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            Elevate your invoice data effortlessly through our API-driven microservice. With a user-friendly interface and no registration hassles, experience the convenience of enhanced electronic data processing. Stay focused on your core tasks while our service seamlessly optimizes your invoicing operations in the background.
             </p>
           </div>
           <div className="  col-10 col-md-5 col-lg-3 benefit-card">
-            <h3>Benefit 1</h3>
+            <h3>Increased Efficiency, Reduced Costs</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            Enhance the efficiency of your invoice processing while keeping costs in check. Our microservice's API integration allows you to boost productivity without the need for extensive software updates. Join a community-driven initiative that maximizes benefits for all users, delivering a cost-effective solution for streamlined invoice management.
             </p>
           </div>
         </div>
@@ -223,26 +211,10 @@ function Home() {
         <h1 className="py-5">Documentation</h1>
 
         <div className="d-flex flex-column col-12 col-sm-8">
-          <div className="step">
-            <h5>Initial Configuration</h5>
-            <p>
-              <ul>
-                <li>
-                  Create an account by following this{" "}
-                  <Link to="/signup">link</Link>
-                </li>
-                <li>Add your company data under the account section</li>
-                <li>
-                  Generate a secret key for the company ( each company has a
-                  different secret key)
-                </li>
-                <li>Save the secret key for the next steps</li>
-              </ul>
-            </p>
-          </div>
+      
 
           <div className="step">
-            <h5>How to send the data</h5>
+            
 
             <ul>
               <li>
